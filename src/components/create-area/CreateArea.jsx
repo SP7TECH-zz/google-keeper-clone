@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import "./CreateArea.scss";
 
 function CreateArea(props) {
     const [note, setNote] = useState({
@@ -32,7 +33,7 @@ function CreateArea(props) {
         <div>
             <form>
                 <input onChange={handleChange} name="title" placeholder="Enter the title" value={note.title} />
-                <textarea onChange={handleChange} name="note" placeholder="Take your Note" value={note.content} />
+                <textarea onChange={handleChange} name="content" placeholder="Take your Note" value={note.content} />
 
                 <button onClick={submitNote}>Add</button>
             </form>

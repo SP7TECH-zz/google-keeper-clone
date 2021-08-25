@@ -42,10 +42,10 @@ function CreateArea(props) {
         <div>
             <form className="create-note">
                 {isZoomed ?
-                    <input onChange={handleChange} name="title" placeholder="Enter the title" value={note.title} />
+                    <input id="note-creation" onChange={handleChange} name="title" placeholder="Title" value={note.title} />
                     : null
                 }
-                <textarea onClick={handleTransition} onChange={handleChange} name="content" placeholder="Take your Note" value={note.content} rows={isZoomed ? 3 : 1} />
+                <textarea onClick={handleTransition} onChange={handleChange} name="content" placeholder="Take a note" value={note.content} rows={isZoomed ? 3 : 1} />
 
                 <Zoom in={isZoomed}>
                     <Fab onClick={submitNote}><AddIcon /></Fab>

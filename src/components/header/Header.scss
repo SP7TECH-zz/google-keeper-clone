@@ -1,14 +1,33 @@
 @import "../../main.scss";
 
 header {
-  background-color: $color-primary;
+  background: #fff;
   margin: auto -16px;
-  padding: 16px 32px;
-  box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.3);
+  padding: 1rem 2rem;
+  border-bottom: 1px solid rgba($color-black, 0.15);
+  box-shadow: 0 0 10px 0 rgba($color-black, 0.1);
+
+  & .menu-icon {
+    color: $color-grey;
+    font-size: 2.5rem;
+    vertical-align: middle;
+  }
+
+  & .main-title {
+    color: $color-grey;
+    font-weight: 500;
+    font-size: 2.2rem;
+    display: inline-block;
+    margin: 0 1rem;
+    vertical-align: middle;
+  }
 }
 
-header h1 {
-  color: #fff;
-  font-family: "McLaren", cursive;
-  font-weight: 200;
+header form {
+  display: inline-block;
+  background-color: rgba($color-black, 0.05);
+  padding: 0 2rem;
+  border-radius: 0.5rem;
+  margin-left: 8.6rem;
+  width: 50%;
 }

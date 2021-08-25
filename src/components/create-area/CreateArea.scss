@@ -1,15 +1,18 @@
+@import "../../main.scss";
+
 form.create-note {
     position: relative;
-    width: 480px;
+    width: 40%;
     margin: 30px auto 20px auto;
     background: #fff;
-    padding: 15px;
+    padding: 12px;
     border-radius: 7px;
-    box-shadow: 0 1px 5px rgb(138, 137, 137);
+    box-shadow: 0 .5rem 2rem rgba($color-black, .08);
 }
 
 form.create-note input,
 form.create-note textarea {
+    overflow: hidden;
     width: 100%;
     border: none;
     padding: 4px;
@@ -17,6 +20,15 @@ form.create-note textarea {
     font-size: 1.2em;
     font-family: inherit;
     resize: none;
+
+    &::placeholder {
+        font-size: 1.4rem;
+        font-weight: 500;
+    }
+}
+
+#note-creation {
+    padding-bottom: 2rem;
 }
 
 form.create-note button {

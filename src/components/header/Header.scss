@@ -23,11 +23,17 @@ header {
   }
 }
 
-header form {
-  display: inline-block;
-  background-color: rgba($color-black, 0.05);
-  padding: 0 2rem;
-  border-radius: 0.5rem;
-  margin-left: 8.6rem;
-  width: 50%;
+.header {
+  display: flex;
+  justify-content: space-between;
+
+  &-logo {
+    margin: 1rem 0 0 2rem;
+  }
+
+  &-account {
+    color: $color-grey;
+    font-size: 4.5rem !important;
+    margin-right: 2rem;
+  }
 }

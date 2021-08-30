@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/google-keeper-clone/static/css/main.d9e0ee03.chunk.css",
+    "main.js": "/google-keeper-clone/static/js/main.05b75cb9.chunk.js",
+    "main.js.map": "/google-keeper-clone/static/js/main.05b75cb9.chunk.js.map",
+    "runtime-main.js": "/google-keeper-clone/static/js/runtime-main.7db58fe0.js",
+    "runtime-main.js.map": "/google-keeper-clone/static/js/runtime-main.7db58fe0.js.map",
+    "static/js/2.8af598fc.chunk.js": "/google-keeper-clone/static/js/2.8af598fc.chunk.js",
+    "static/js/2.8af598fc.chunk.js.map": "/google-keeper-clone/static/js/2.8af598fc.chunk.js.map",
+    "static/js/3.7b1b4287.chunk.js": "/google-keeper-clone/static/js/3.7b1b4287.chunk.js",
+    "static/js/3.7b1b4287.chunk.js.map": "/google-keeper-clone/static/js/3.7b1b4287.chunk.js.map",
+    "index.html": "/google-keeper-clone/index.html",
+    "static/css/main.d9e0ee03.chunk.css.map": "/google-keeper-clone/static/css/main.d9e0ee03.chunk.css.map",
+    "static/js/2.8af598fc.chunk.js.LICENSE.txt": "/google-keeper-clone/static/js/2.8af598fc.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.7db58fe0.js",
+    "static/js/2.8af598fc.chunk.js",
+    "static/css/main.d9e0ee03.chunk.css",
+    "static/js/main.05b75cb9.chunk.js"
+  ]
+}
